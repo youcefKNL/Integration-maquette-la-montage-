@@ -1,3 +1,26 @@
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: "merriweather";
+    src: url(../fonts/Merriweather-Light.ttf);
+}
+
+
+$font1: "inter",sans-serif;
+$font2: "merriweather", sans-serif;
+$color1: rgb(233,233,233);//gris
+$color2:white;
+
+
+// MIXINS
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +29,20 @@
     margin-block: 0;
     outline: none;
   }
+  
+  body{
+      background:url(../img/bg.jpg) fixed center/cover;
+      font-family: $font1;
+    //   @include center;
 
-  .btn {
+  }
+
+  p{
+    font-family: $font2;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+  .btn{
       display: inline-block;
       text-decoration: none;
       text-transform: uppercase;
@@ -17,20 +52,20 @@
       border: 2px solid black;
       background: transparent;
       padding: 15px 30px;
+      color: black;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1em;  
       a{
-          text-decoration: none;
-          color: black;
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 1.2em;
-          
+        color: black;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1em;  
+        text-decoration: none;
     }
   }
-  .btn:hover {
-    border: 1px solid skyblue;
-    color: skyblue;
+  .btn:hover{
+    color: white;
+    background-color: rgba(63, 62, 62, 0.507);
+    border:1px solid white;
   }
-
-body{
-    background:url(../img/bg.jpg) fixed center/cover;
-}
