@@ -53,4 +53,51 @@ p {
   color: white;
   background-color: rgba(63, 62, 62, 0.507);
   border: 1px solid white;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 5em;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+}
+
+.btn-header {
+  border: 2px solid white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  transition: 0.2s ease-in-out;
+}
+.btn-header i {
+  color: white;
+  font-size: 2em;
+}
+
+.btn-header:hover {
+  border: none;
+  cursor: pointer;
+  background-color: rgba(63, 62, 62, 0.507);
 }/*# sourceMappingURL=index.css.map */
