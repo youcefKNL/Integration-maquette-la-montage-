@@ -1,0 +1,119 @@
+footer {
+  height: 100vh;
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  background-color: $color1;
+}
+
+.contactMail {
+  width: 50%;
+  border-right: 1px solid silver;
+  .grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 20% 40% 20%;
+    div {
+      margin: 50px 40px;
+    }
+    label {
+      display: block;
+      font-size: 1em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+#email,
+#name,
+#message {
+  width: 100%;
+  background-color: $color1;
+  margin: 20px 0 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+textarea {
+  resize: none;
+  height: 180px;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid black;
+  background: transparent;
+  padding: 15px 30px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+input[type="submit"]:hover {
+  color: white;
+  background-color: rgba(63, 62, 62, 0.507);
+  border: 2px solid white;
+}
+
+.contactInfo {
+  width: 50%;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  .contact-contains {
+    border: 1px solid silver;
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  .title {
+    margin: auto;
+    text-transform: uppercase;
+  }
+  .contains {
+    margin: auto 30px;
+    font-size: 0.8em;
+    p {
+      color: black;
+    }
+    ul {
+      @include center;
+      justify-content: flex-start;
+      margin: 0 auto;
+      .border {
+        border: 2px solid rgb(68, 68, 68);
+        border-radius: 30px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 10px;
+        transition: 0.3s ease-in-out;
+      }
+      li {
+        border: 1px solid red($color: #000000);
+        width: 20px;
+      }
+      li a {
+        color: rgb(17, 17, 17);
+        transition: 0.6s ease-in-out;
+        font-size: 1.5em;
+      }
+    }
+
+    .border:hover {
+      border: 2px solid white;
+      li a {
+        color: white;
+      }
+    }
+  }
+}
