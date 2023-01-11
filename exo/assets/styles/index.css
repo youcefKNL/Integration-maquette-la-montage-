@@ -301,4 +301,126 @@ nav .socialContact li a:hover {
 
 .btn {
   margin: 20px;
+}
+
+footer {
+  height: 100vh;
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  background-color: rgb(233, 233, 233);
+}
+
+.contactMail {
+  width: 50%;
+  border-right: 1px solid silver;
+}
+.contactMail .grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 20% 20% 40% 20%;
+}
+.contactMail .grid-container div {
+  margin: 50px 40px;
+}
+.contactMail .grid-container label {
+  display: block;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#email,
+#name,
+#message {
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+  margin: 20px 0 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+textarea {
+  resize: none;
+  height: 180px;
+}
+
+input[type=submit] {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid black;
+  background: transparent;
+  padding: 15px 30px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+input[type=submit]:hover {
+  color: white;
+  background-color: rgba(63, 62, 62, 0.507);
+  border: 2px solid white;
+}
+
+.contactInfo {
+  width: 50%;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+.contactInfo .contact-contains {
+  border: 1px solid silver;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.contactInfo .title {
+  margin: auto;
+  text-transform: uppercase;
+}
+.contactInfo .contains {
+  margin: auto 30px;
+  font-size: 0.8em;
+}
+.contactInfo .contains p {
+  color: black;
+}
+.contactInfo .contains ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+.contactInfo .contains ul .border {
+  border: 2px solid rgb(68, 68, 68);
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  transition: 0.3s ease-in-out;
+}
+.contactInfo .contains ul li {
+  border: 1px solid 0;
+  width: 20px;
+}
+.contactInfo .contains ul li a {
+  color: rgb(17, 17, 17);
+  transition: 0.6s ease-in-out;
+  font-size: 1.5em;
+}
+.contactInfo .contains .border:hover {
+  border: 2px solid white;
+}
+.contactInfo .contains .border:hover li a {
+  color: white;
 }/*# sourceMappingURL=index.css.map */
