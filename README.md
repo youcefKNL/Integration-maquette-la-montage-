@@ -5,9 +5,6 @@
 
 
 
-![Logo](https://meilleur-mooc.fr/wp-content/uploads/2021/11/Openclassrooms.png)
-
-
 ## BADGE 
 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-water.svg)](https://forthebadge.com)
