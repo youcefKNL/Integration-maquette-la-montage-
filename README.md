@@ -1,4 +1,5 @@
 
+[![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com) https://youcefknl.github.io/Integration-maquette-la-montage-/
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-200x33.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
@@ -9,10 +10,6 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-water.svg)](https://forthebadge.com)
 
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
-
-
-[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 # Intégration maquette La montagne
 
 
