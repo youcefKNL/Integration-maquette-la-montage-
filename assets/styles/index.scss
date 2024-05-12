@@ -1,4 +1,8 @@
-@import "./settings";
-@import "./layouts/header";
-@import "./layouts/main";
-@import "./layouts/footer";
+@import "../styles/_settings";
+@import "../styles/layout/_header";
+@import "../styles/layout/_navbar";
+@import "../styles/layout/main";
+@import "../styles/components/button";
+@import "../styles/layout/section1";
+@import "../styles/layout/section2";
+@import "../styles/layout/_footer";

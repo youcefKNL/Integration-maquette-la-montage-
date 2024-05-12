@@ -1,0 +1,71 @@
+.section2 {
+    display: flex;
+
+    &>div {
+        @include centerColumn;
+        gap: 20px;
+        padding: 40px 5%;
+
+        .date {
+            font-style: italic;
+            text-transform: capitalize;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            font-size: larger;
+        }
+
+        .image {
+            width: 100%;
+            height: 200px;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+
+    .left {
+        border-right: solid 1px $backgroundColor2;
+
+        .image {
+            background: url(../img/pic03.jpg) center / cover;
+        }
+    }
+
+    .right {
+        border-left: solid 2px $backgroundColor2;
+
+        .image {
+            background: url(../img/pic02.jpg) center / cover;
+        }
+    }
+
+    @media screen and (max-width: $mobileMediaWhidth) {
+        padding: 40px 0px 40px;
+        display: block;
+
+
+        .left {
+            border: none;
+            padding: 40px 0px 40px;
+            gap: 40px;
+        }
+
+        .right {
+            border: none;
+            padding: 40px 0px 40px;
+            gap: 40px;
+        }
+
+        p{
+            padding: 20px;
+        }
+
+        &>div .image {
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
